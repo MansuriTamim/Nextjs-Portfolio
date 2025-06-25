@@ -41,19 +41,20 @@ const Projects = () => {
       </div>
       {/* Project details card */}
 
-      <ProjectDetails
-        title={activeProject.title}
-        subTitle={activeProject.subTitle}
-        stack={activeProject.stack}
-        description={activeProject.description}
-        date={activeProject.date}
-        github={activeProject.github}
-        live={activeProject.live}
-        color={activeProject.color}
-        btnBg={activeProject.btnBg}
-        btnBgHover={activeProject.btnBgHover}
-        cardBg={activeProject.cardBg}
-      />
+   <ProjectDetails
+  title={activeProject.title || "Untitled Project"}
+  subTitle={activeProject.subTitle || ""}
+  stack={activeProject.stack || []}
+  description={activeProject.description || "No description provided."}
+  date={activeProject.date || "Unknown"}
+  github={activeProject.github || "#"}
+  live={activeProject.live || "#"}
+  color={activeProject.color || "gray"}
+  btnBg={activeProject.btnBg || "bg-gray-700"}
+  btnBgHover={activeProject.btnBgHover || "hover:bg-gray-600"}
+  cardBg={activeProject.cardBg || "bg-gray-900"}
+/>
+
     </div>
   );
 };
