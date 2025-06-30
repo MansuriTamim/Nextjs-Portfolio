@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: "1",
-    screenshot: "/dev-overflow.png",
+    screenshot: "/dev-overflo.png",
     title: "ShopEase",
     subTitle: "e-commerce platform Website",
     stack: [
