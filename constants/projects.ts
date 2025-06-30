@@ -2,8 +2,8 @@ export const projects = [
   {
     id: "1",
     screenshot: "/dev-overflow.png",
-    title: "Windstar Games",
-    subTitle: "Game Development Website",
+    title: "ShopEase",
+    subTitle: "e-commerce platform Website",
     stack: [
       "next.js",
       "javascript",
@@ -14,9 +14,9 @@ export const projects = [
       "react",
       "scss",
     ],
-    description: `Windstar Games is a sleek and modern gaming website built using React, TypeScript, JavaScript, and Bootstrap. Designed to deliver a seamless and immersive user experience, the platform features a modular component-based architecture, ensuring fast performance and easy scalability. The site offers intuitive navigation, responsive layouts, and a visually engaging interface tailored for gamers. With dynamic content loading, clean UI design, and interactive elements, Windstar Games provides users with an enjoyable browsing experience across devices..`,
+    description: `ShopEase is a fast and responsive e-commerce platform built with React, TypeScript, and Bootstrap. Featuring a clean UI, intuitive navigation, and dynamic product displays, it delivers a smooth shopping experience across all devices. Its modular structure ensures scalability, while secure checkout and interactive elements enhance user engagement.`,
     date: "July 25, 2025",
-    live: "https://windstargames.com/",
+    live: "https://shop-ease.sa/",
     color: "rgba(249,115,22)",
     btnBg: "rgba(154,52,18,0.5)",
     btnBgHover: "rgba(67,20,7)",
